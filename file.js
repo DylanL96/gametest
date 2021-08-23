@@ -19,7 +19,7 @@ let playRound = (playerSelection) => {
   if(playerSelection == 'rock' && computerPlay() == 'rock'){
     console.log('tie');
   } else if (playerSelection == 'rock' && computerPlay() == 'paper'){
-    console.log(`Computer wins`);
+    console.log(`Computer wins test`);
     computerScore++;
     computerScoreLabel.innerHTML = computerScore;
   } else if (playerSelection == 'rock' && computerPlay() == 'scissors') {
